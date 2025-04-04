@@ -9,6 +9,6 @@ Repository = "https://github.com/mobilehacker/ComfyUI_format-lora-stack"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "applepie1337"
 DisplayName = "ComfyUI_format-lora-stack"
 Icon = ""
