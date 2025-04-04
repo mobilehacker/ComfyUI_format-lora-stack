@@ -1,15 +1,14 @@
-# pyproject.toml
 [project]
-name = "format-lora-stack" # Unique identifier for your node. Immutable after creation.
-description = "Node which translates lora_strack to string with a1111 usage scheme"
-version = "0.1" # Custom Node version. Must be semantically versioned.
-license = { file = "LICENSE.txt" }
-dependencies  = [] # Filled in from requirements.txt
+name = "format-lora-stack"
+description = "Simple node to convert lora_stack output into string to generate a1111-style lora strength output text, like <lora:name:0.69>. Used to include your Lora names from Lora Stack in text input-output nodes and so on."
+version = "1.0.0"
+license = {file = "LICENSE"}
 
 [project.urls]
 Repository = "https://github.com/mobilehacker/ComfyUI_format-lora-stack"
+#  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = "applepie1337" # TODO (fill in Publisher ID from Comfy Registry Website).
-DisplayName = "Format Lora Stack" # Display name for the Custom Node. Can be changed later.
-Icon = "" # SVG, PNG, JPG or GIF (MAX. 800x400px)
+PublisherId = "applepie1337"
+DisplayName = "ComfyUI_format-lora-stack"
+Icon = ""
